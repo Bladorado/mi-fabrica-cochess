@@ -5,7 +5,11 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'i.blogs.es',
-      }
+      },
+       {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
     ],
   },
 };

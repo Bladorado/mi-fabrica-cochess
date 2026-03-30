@@ -1,6 +1,6 @@
 import Image from 'next/image';
 // Importamos el archivo directamente para que Next.js extraiga sus medidas
-import vitoLocal from '@/public/images/vito-silver.jpg';
+import vitoLocal from '@/public/images/vito-silver.png';
 
 export default function FichaLocal() {
   return (

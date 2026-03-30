@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="es">
-      <body  className="font-courier bg-gray-100 flex h-screen">
+      <body className="font-courier flex h-screen bg-green-300">
         {/* BARRA LATERAL (Sidebar) - Siempre visible */}
         <nav className="w-64 bg-rose-50 text-black p-6 flex flex-col gap-4">
           <h2 className="text-2xl font-bold mb-8 text-blue-400">⚙️ AutoFabrik</h2>
@@ -30,6 +30,8 @@ export default function RootLayout({ children }) {
           <Link href="/" className="hover:text-blue-300 transition">Inicio</Link>
           <Link href="/produccion" className="hover:text-blue-300 transition">Línea de Producción</Link>
           <Link href="/logistica" className="hover:text-blue-300 transition">Logística y Almacén</Link>
+          <Link href="/ficha" className="hover:text-blue-300 transition">Ficha</Link>
+          <Link href="/fichaExterna" className="hover:text-blue-300 transition">Ficha Externa</Link>
 
           <div className="mt-auto text-xs text-slate-500">
 
